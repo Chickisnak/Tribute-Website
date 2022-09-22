@@ -1,0 +1,93 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  background: #cd91914a;
+}
+
+.Header {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background: #ead094;
+  border: 2px solid black;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 25px 0px;
+}
+
+.Header img {
+  width: 180px;
+  height: 180px;
+  transition: all 0.4s linear;
+  opacity: 0.8;
+  border: 2px solid black;
+  border-radius: 15%;
+  box-shadow: 5px 5px 8px 4px #888888;
+  margin: 20px;
+}
+
+@media only screen and (max-width: 600px){
+  .Header img:hover {
+    transform: none;
+  }
+  .Header .details:hover {
+    transform: none;
+  }
+}
+
+.Header .details {
+  margin: auto 35px;
+  line-height: 1.3;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: #88888828;
+  box-shadow: 5px 4px 8px 10px #888888;
+  transition: all 0.4s linear;
+  opacity: 0.9;
+}
+
+
+.Main {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.Main .Heading {
+  margin: 40px auto 5px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.Main .Para {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: auto 5px;
+  padding: 5px 10px;
+  word-wrap: break-word;
+}
+
+.Main .Para .Para-1 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-size: large;
+  line-height: 1.4;
+}
+
+.Main .Para #Awards {
+  width: auto;
+  margin: 15px 70px;
+}
+
+.Footer{
+  width: 100%;
+  text-align: center;
+  background: black;
+  color: white;
+}
